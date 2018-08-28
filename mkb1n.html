@@ -1,0 +1,272 @@
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+      <title> iiit kota</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <style type ="text/css">
+           .mySlides {display:none;}
+
+           .qq{
+               color: black;
+               background-color:orange;
+               
+               }
+           
+           .pp{
+               color: black;
+               border: 0;
+               
+               
+              }
+           .rr{
+               color: white;
+               background-color:salmon;
+              }
+               
+           .pos{
+                position: relative;
+                padding-right: 200px;
+               }
+           .h1{
+               width:150px;
+           }
+                  
+           	.blink{
+		width:100%;
+		height: 50px;
+	   
+	
+		
+		
+	}
+	spa{
+        width: 100%;
+		font-size:30px;
+		font-style: italic;
+		color: white;
+		animation: blink 2s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .1;}
+100%{opacity: 2;}
+}
+button{
+        outline: none;    
+    background-color: cadetblue;
+    border: none;
+           }
+    
+       
+       </style>
+    </head>
+<body>
+    <div style="background-color:white">
+    <p>   
+        <div style="background-color: orangered"><h2 style="text-align:center"  ><img src="IIIT-_Kota_Logo.png" width="50px" ><spa>Indian Institute Of Technology Kota<br>भारतीय सूचना प्रौद्योगिकी संस्थान, कोटा</spa>        <script type="text/javascript">
+            var fxn = function() {
+var now = new Date(), // current date
+      months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; // you get the idea
+      time = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds(), // again, you get the idea
+
+      // a cleaner way than string concatenation
+      date = [now.getDate(),
+              months[now.getMonth()],
+              now.getFullYear()].join(' ');
+
+document.getElementById('time').innerHTML = [date, time].join(' / ');
+}
+setInterval(fxn, 1000);
+            </script>
+            <div id="time" style="position:relative;top=12px">11 April 2018 / 22:38:43</div>
+</h2></div></p>
+    
+        <table width="100%" border="1">
+          <tr  class="qq">
+              <th> <a href=" mkb2n.html"><h3>About Us</h3></a> </th>
+              <th> <div class="w3-dropdown-hover" style="background-color: orange">
+                  <h3 style="background-color: orange;height:200%; width: 100%;border: none;outline: none">Acadmic</h3>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Admission</a>
+      <a href="#" class="w3-bar-item w3-button">Department</a>
+      <a href="#" class="w3-bar-item w3-button">Curriculum</a>
+        <a href="#" class="w3-bar-item w3-button">Time table</a>
+        <a href="#" class="w3-bar-item w3-button">Institute Library</a>
+        <a href="#" class="w3-bar-item w3-button">Institute Event</a>
+        <a href="#" class="w3-bar-item w3-button">Institute Scholarship</a>
+    </div>
+  </div></th>
+              <th> <a href="mkb4.html"><h3>Central facilities</h3></a></th>
+              <th> <a href="mkb5n.html"><h3>Vision</h3></a></th>
+              <th> <a href="mkb6.html"><h3>Departments</h3></a></th>
+        
+           </tr>
+        </table>
+    <div width="100%">
+        
+    <div class="w3-content w3-section" style="max-width:50%">
+        <img class="mySlides w3-animate-zoom" src="f1.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f2.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f3.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f4.jpg" style="width:50%">
+</div>
+        
+    <div class="w3-content w3-section" style="max-width:50%;float: right">
+        <img class="mySlides w3-animate-zoom" src="f1.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f2.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f3.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f4.jpg" style="width:50%">
+         <img class="mySlides w3-animate-zoom" src="f4.jpg" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f5.jpg" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f6.JPG" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f7.jpg" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f8.JPG" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f9.JPG" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f10.jpg" style="width:50%">
+ <img class="mySlides w3-animate-zoom" src="f11.JPG" style="width:50%">
+
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+        
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);   
+    
+}
+    
+</script>
+
+
+            
+            
+    <p class="qq"><strong>Thought of the Day</strong> - As long as you alive ,keep smile</p>
+             
+    <table width="100%">
+           
+           <tr>
+           <th>       
+           <table style="width:180%;position: relative">
+            
+            <tr>
+                
+                <th class="pp"><h2>Portal</h2></th>
+            
+            </tr>
+            <tr  rowspan="3">
+                <th class="rr"><a href="mkbacad.html"> <pre></pre> <h3>Acadmic</h3><pre></pre> </a></th><pre>             </pre>
+            </tr>
+            <tr>
+                <th class="rr"><a href="mkbstu.html"><pre></pre><h3>Student welfare</h3><pre></pre></a></th>
+                
+            </tr>
+               <tr>
+                   <th class="rr" ><a href="mkb7n.html"><pre></pre><h3>Placement</h3><pre></pre></a></th>
+            </tr>
+            <tr>
+                <th class="rr"><a href="mkbfacl.html"><pre></pre><h3>faculty</h3><pre></pre></a></th>
+            </tr>
+            <tr>
+               </tr>  
+            <tr>
+                 <th class="rr"><a href="mkb8n.html"><pre></pre><h3>Mission</h3><pre></pre></a></th>
+            
+               </tr>  
+               
+               </table>
+        
+               
+                
+                   <th>  </th><th><pre>                   </pre></th><th>      </th>
+               
+               
+               <th class="pos"> <div style="background-color: cadetblue;width:80%;text-align: center"><table border="2"><tr><th class="h1"><button onclick="abc()">Latest News<br></button></th><th class="h1">
+                   <button onclick="abd()">Events</button></th><th class="h1"><button onclick="abe()">Student Corner</button></th></tr></table></div><div style="background-color:oldlace"> 
+               <marquee direction="up" width="100%" height="300px" style="border:solid" onmouseover="this.stop();" onmouseout="this.start()"; id="a">
+               
+               Internship And Placement<pre></pre><br>Institute Scholarship<pre></pre><br>
+               Vidyalaxmi Portal For Education Loan <pre></pre> <br>Notice For Appointment On Deputation Basis<pre></pre> <br> 
+                Guest Faculty<pre></pre><br>
+                IIIT Kota Declared as Institue of National Importance <pre></pre>  <br>
+                 Orinatation Program
+               </marquee>
+        
+<marquee direction="up" width="100%" height="300px" style="border:solid" onmouseover="this.stop();" onmouseout="this.start()"; id="b"  >
+               
+                IIIT Kota Events<pre></pre><br>IIIT Kota celebrated Yoga Day<pre></pre><br>
+                Swachh Bharat Mission<pre></pre> <br>Swachh Bharat Mission<pre></pre> <br>
+                
+               </marquee>
+        
+<marquee direction="up" width="100%" height="300px" style="border:solid" onmouseover="this.stop();" onmouseout="this.start()"; id="c">
+               
+               Program Advisers<pre></pre><br>Applying for Scholarship<pre></pre><br>
+               Important note to students<pre></pre> <br>End term time table<pre></pre> <br> 
+            
+               </marquee>        
+               
+        </div>
+               </th>
+            
+                          <th>
+               <table width="200px">
+            <tr>          
+                <th class="pp"><h2>links</h2></th>
+            
+            </tr>
+            <tr>
+              <th class="rr"><a href="mkbinst.html"><pre></pre><h3>Institute</h3><pre></pre></th>
+            </tr>
+            <tr>
+              <th class="rr"><a href="mkbpeople.html"><pre></pre><h3>people</h3><pre></pre></th>
+                
+            </tr>
+               <tr>
+              <th class="rr"><a href="mkb6n.html"><pre></pre><h3>vacancies</h3><pre></pre></th>
+            </tr>
+            <tr>
+              <th class="rr"><a href="mkbtend.html"><pre></pre><h3>Tender</h3><pre></pre></th>
+            </tr>
+            <tr>
+               <th class="rr"><a href="mkbcont.html"><pre></pre><h3>Contact Us</h3><pre></pre></th>
+              
+            </tr> 
+           
+           </table>
+               </th></tr></table>
+    
+             
+    <br><br><br><br>
+    <script>
+                document.getElementById("a").style.display = "block";
+                document.getElementById("b").style.display = "none";
+                document.getElementById("c").style.display = "none";
+        
+    function abc(){
+                document.getElementById("a").style.display = "block";
+                document.getElementById("b").style.display = "none";
+                document.getElementById("c").style.display = "none";
+            }
+              function abd(){
+                document.getElementById("a").style.display = "none";
+                document.getElementById("b").style.display = "block";
+                document.getElementById("c").style.display = "none";
+            }
+              function abe(){
+                document.getElementById("a").style.display = "none";
+                document.getElementById("b").style.display = "none";
+                document.getElementById("c").style.display = "block";
+            }
+    </script>
+    </html>

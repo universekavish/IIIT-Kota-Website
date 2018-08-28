@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>for experiment</title>
+    </head>
+    <body>
+         <P>  <div class="w3-content w3-section" style="max-width:50%;float: right;position: relative">
+        <img class="mySlides w3-animate-zoom" src="f1.jpg" style="width:50%;">
+  <img class="mySlides w3-animate-zoom" src="f2.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f3.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f4.jpg" style="width:50%">
+    </div>           <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);   
+
+}</script></P>
+
+        
+  <P>            <div class="w3-content w3-section" style="max-width:50%;position:absolute;top: 900px">
+        <img class="mySlides" src="f1.jpg" style="width:50%">
+  <img class="mySlides" src="f2.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f3.jpg" style="width:50%">
+  <img class="mySlides w3-animate-zoom" src="f4.jpg" style="width:50%">
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);   
+
+}
+    
+</script></P>
+    </body>
+</html>
